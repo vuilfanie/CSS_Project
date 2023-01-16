@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Quicksand', sans-serif;
+    src: url(./fonts/static/);
+}
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+header, footer {
+    background-color: #1F2937;
+}
+.header_logo, .action_heading {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header_links, .hero_secondary, .hero_placeholder_child, .action_paragraph, 
+footer {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero_main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.button_top, .button_bottom, .action_parent{
+    background-color: #3882f6;
+}
+.hero_placeholder_parent {
+    background-color: #6d747d;
+}
+.hero_placeholder_child {
+}
+.information_header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+.illustration_image {
+
+}
+.quote_parent {
+    background-color: #E5E7EB;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+.thor {
+
+}
+.action_parent{
+
+}
+.action_heading {
+
+}
+
