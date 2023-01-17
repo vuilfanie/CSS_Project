@@ -9,9 +9,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-header, footer {
+header,
+footer {
     background-color: #1F2937;
 }
+
 .header__placeholder {
     height: 3rem;
 }
@@ -46,11 +48,15 @@ header, footer {
     font-size: 24px;
     color: #F9FAF8;
 }
-.header_links, .hero_secondary, .hero_placeholder_child, .action_paragraph, 
+.header__link,
+.header__subtitle,
+.header__placeholder-child,
+.cta__text,
 footer {
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .header__title-parent {
     display: flex;
     flex-flow: column nowrap;
@@ -58,14 +64,17 @@ footer {
     padding-right: 3rem;
     justify-content: space-between;
 }
+
 .header__title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
+
 .header__button {
     width: 6rem;
 }
+
 .header__button,
 .cta__button,
 .cta {
@@ -83,20 +92,15 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.hero_placeholder_child {
-}
-.information_header {
+.main__title {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
 }
-.illustration_image {
-
-}
-.quote_parent {
+.testimonial {
     background-color: #E5E7EB;
 }
-.quote {
+.testimonial__quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -113,3 +117,4 @@ footer {
     opacity: .8;
     cursor: pointer;
 }
+
