@@ -4,11 +4,44 @@
 }
 * {
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header, footer {
     background-color: #1F2937;
 }
-.header_logo, .action_heading {
+.header__placeholder {
+    height: 3rem;
+}
+.header__nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #1F2937;
+    width: 100%;
+    padding: 0rem 12rem;
+    margin-right: 10rem;
+    justify-content: space-between; 
+    align-items: center;  
+    height: 3rem;     
+}
+.header__hero {
+    display: flex;
+    padding: 4rem 12rem;
+    justify-content: space-between;
+    height: 20rem;
+}
+.header__nav a {
+    text-decoration: none;
+}
+.header__link {
+    margin-left: 1rem;
+}
+.header__logo,
+.cta__title {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -17,16 +50,39 @@ footer {
     font-size: 18px;
     color: #E5E7EB;
 }
-.hero_main {
+.header__title-parent {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    padding-right: 3rem;
+    justify-content: space-between;
+}
+.header__title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
-.button_top, .button_bottom, .action_parent{
+.header__button {
+    width: 6rem;
+}
+.header__button,
+.cta__button,
+.cta {
     background-color: #3882f6;
 }
-.hero_placeholder_parent {
+.header__button,
+.cta__button {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+.header__placeholder-parent {
+    /*border: 1px solid red;*/
     background-color: #6d747d;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero_placeholder_child {
 }
@@ -47,13 +103,14 @@ footer {
     font-style: italic;
     color: #1F2937;
 }
-.thor {
-
+.testimonial__author {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1F2937;
 }
-.action_parent{
-
+.header__nav a:hover,
+.header__button:hover,
+.cta__button:hover {
+    opacity: .8;
+    cursor: pointer;
 }
-.action_heading {
-
-}
-
