@@ -5,55 +5,57 @@
 * {
     font-family: 'Quicksand', sans-serif;
 }
-header, footer {
+header,
+footer {
     background-color: #1F2937;
 }
-.header_logo, .action_heading {
+.header__logo,
+.cta__title {
     font-size: 24px;
     color: #F9FAF8;
 }
-.header_links, .hero_secondary, .hero_placeholder_child, .action_paragraph, 
+.header__link,
+.header__subtitle,
+.header__placeholder-child,
+.cta__text,
 footer {
     font-size: 18px;
     color: #E5E7EB;
 }
-.hero_main {
+.header__title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
-.button_top, .button_bottom, .action_parent{
+.header__button,
+.cta__button,
+.cta {
     background-color: #3882f6;
 }
-.hero_placeholder_parent {
+.header__button,
+.cta__button {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+.header__placeholder-parent {
     background-color: #6d747d;
 }
-.hero_placeholder_child {
-}
-.information_header {
+.main__title {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
 }
-.illustration_image {
-
-}
-.quote_parent {
+.testimonial {
     background-color: #E5E7EB;
 }
-.quote {
+.testimonial__quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
-.thor {
-
+.testimonial__author {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1F2937;
 }
-.action_parent{
-
-}
-.action_heading {
-
-}
-
