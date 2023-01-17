@@ -4,10 +4,44 @@
 }
 * {
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 header,
 footer {
     background-color: #1F2937;
+}
+
+.header__placeholder {
+    height: 3rem;
+}
+.header__nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #1F2937;
+    width: 100%;
+    padding: 0rem 12rem;
+    margin-right: 10rem;
+    justify-content: space-between; 
+    align-items: center;  
+    height: 3rem;     
+}
+.header__hero {
+    display: flex;
+    padding: 4rem 12rem;
+    justify-content: space-between;
+    height: 20rem;
+}
+.header__nav a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+.header__link {
+    margin-left: 1rem;
 }
 .header__logo,
 .cta__title {
@@ -22,11 +56,25 @@ footer {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.header__title-parent {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    padding-right: 3rem;
+    justify-content: space-between;
+}
+
 .header__title {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
+
+.header__button {
+    width: 6rem;
+}
+
 .header__button,
 .cta__button,
 .cta {
@@ -39,6 +87,10 @@ footer {
 }
 .header__placeholder-parent {
     background-color: #6d747d;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main__title {
     font-size: 36px;
@@ -59,3 +111,10 @@ footer {
     font-weight: 800;
     color: #1F2937;
 }
+.header__nav a:hover,
+.header__button:hover,
+.cta__button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
