@@ -103,10 +103,43 @@ footer {
     align-items: center;
 }
 
+main {
+
+    padding-bottom: 7em;
+}
+
 .main__title {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.main__image {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 12em;
+}
+
+.main__image--blue {
+    width: 10em;
+    height: 10em;
+    border: 4px solid #3882f6;
+    border-radius: 8%;
+}
+
+.main__text {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    padding: 0 12em;
+
+}
+
+.main__text--black {
+    width: 9.8em;
+    text-align: center;
 }
 
 .testimonial {
