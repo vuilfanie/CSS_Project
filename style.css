@@ -2,6 +2,7 @@
     font-family: 'Quicksand', sans-serif;
     src: url(./fonts/static/);
 }
+
 * {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
@@ -9,6 +10,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header,
 footer {
     background-color: #1F2937;
@@ -46,6 +48,7 @@ footer {
     width: 100%;
 }
 
+
 .header__nav-child a {
     text-decoration: none;
     color: #F9FAF8;
@@ -70,6 +73,7 @@ footer {
     font-size: 24px;
     color: #F9FAF8;
 }
+
 .header__link,
 .header__subtitle,
 .header__placeholder-child,
@@ -105,12 +109,14 @@ footer {
 .cta {
     background-color: #3882f6;
 }
+
 .header__button,
 .cta__button {
     color: #F9FAF8;
     font-size: 18px;
     border-radius: 10px;
 }
+
 .header__placeholder-parent {
     background-color: #6d747d;
     width: 50%;
@@ -121,30 +127,69 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+main {
+
+    padding-bottom: 7em;
+}
+
 .main__title {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
+    padding: 45px 0;
 }
+
+.main__image {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0rem 12em;
+}
+
+.main__image--blue {
+    width: 10em;
+    height: 10em;
+    border: 4px solid #3882f6;
+    border-radius: 8%;
+}
+
+.main__text {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    padding: 0 12em;
+
+}
+
+.main__text--black {
+    width: 9.8em;
+    text-align: center;
+}
+
 .testimonial {
     background-color: #E5E7EB;
 }
+
 .testimonial__quote {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
+
 .testimonial__author {
     font-size: 18px;
     font-weight: 800;
     color: #1F2937;
 }
+
 .header__nav-child a:hover,
 .header__button:hover,
 .cta__button:hover {
     opacity: .8;
     cursor: pointer;
+
 }
 
 @media only screen and (max-width: 1275px) {
@@ -176,4 +221,3 @@ footer {
         display: flex;
     }    
 
-}
