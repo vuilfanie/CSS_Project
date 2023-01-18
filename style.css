@@ -24,25 +24,37 @@ footer {
     z-index: 1;
     background-color: #1F2937;
     width: 100%;
-    padding: 0rem 12rem;
-    margin-right: 10rem;
+    padding: 1rem 12rem;
     justify-content: space-between; 
-    align-items: center;  
-    height: 3rem;     
+    align-items: center;            
 }
 .header__hero {
     display: flex;
+    flex-flow: row wrap;
     padding: 4rem 12rem;
     justify-content: space-between;
-    height: 20rem;
+    height: auto;
+    width: 100%;
 }
 .header__nav a {
     text-decoration: none;
     color: #F9FAF8;
 }
+
+.header__links {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .header__link {
     margin-left: 1rem;
 }
+
+.header__menu {
+    display: none;   
+}
+
 .header__logo,
 .cta__title {
     font-size: 24px;
@@ -63,6 +75,7 @@ footer {
     width: 50%;
     padding-right: 3rem;
     justify-content: space-between;
+    max-width: 420px;
 }
 
 .header__title {
@@ -73,6 +86,7 @@ footer {
 
 .header__button {
     width: 6rem;
+    margin: .5rem 0;
 }
 
 .header__button,
@@ -84,10 +98,14 @@ footer {
 .cta__button {
     color: #F9FAF8;
     font-size: 18px;
+    border-radius: 10px;
 }
 .header__placeholder-parent {
     background-color: #6d747d;
     width: 50%;
+    max-width: 420px;
+    min-width: 420px;
+    min-height: 240px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,3 +136,26 @@ footer {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 1275px) {
+    .header__title-parent {
+        padding: 0;
+        min-width: 420px;        
+    }
+    .header__hero {
+        justify-content: center;       
+    }
+}
+
+@media only screen and (max-width: 1013px) {
+    .header__link {
+        display: none;
+    }
+
+    .header__nav {
+        padding: 1rem 10rem;
+    }
+
+    .header__menu {
+        display: flex;
+    }
+}
