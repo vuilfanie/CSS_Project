@@ -243,6 +243,13 @@ main {
     width: 28%;
 }
 
+footer {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
   /* media query XS devices to tablets? */
 @media screen and (min-width: 320px) and (max-width: 900px) {
     .cta__container-main {
