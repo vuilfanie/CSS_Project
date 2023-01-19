@@ -226,6 +226,7 @@ main {
     padding: 0.5rem 2rem;
     border-color: #F9FAF8;
 }
+
 /* testimonial code */
 .testimonial{
     display: flex;
@@ -241,7 +242,6 @@ main {
     align-self: flex-end;
     width: 28%;
 }
-
 
   /* media query XS devices to tablets? */
 @media screen and (min-width: 320px) and (max-width: 900px) {
