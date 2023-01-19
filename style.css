@@ -226,6 +226,23 @@ main {
     padding: 0.5rem 2rem;
     border-color: #F9FAF8;
 }
+
+/* testimonial code */
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+}
+.testimonial__quote{
+    width: 60%;
+}
+.testimonial__author{
+    align-self: flex-end;
+    width: 28%;
+}
+
   /* media query XS devices to tablets? */
 @media screen and (min-width: 320px) and (max-width: 900px) {
     .cta__container-main {
