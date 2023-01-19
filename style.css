@@ -148,6 +148,7 @@ main {
 }
 
 .main__image--blue {
+    aspect-ratio: 1 / 1;
     width: 10em;
     height: 10em;
     border: 4px solid #3882f6;
@@ -208,6 +209,23 @@ main {
     }
 }
 
+@media only screen and (max-width: 1150px) {
+    .main__image {
+        padding: 0;
+    }
+    .main__image--blue {
+        aspect-ratio: 1 / 1;
+        width: 7em;
+        height: 7em;
+    }
+    .main__text {
+        padding: 0;
+    }    
+    .main__text--black {
+        font-size: 13px;
+    }
+}    
+
 @media only screen and (max-width: 1013px) {
     .header__link {
         display: none;
@@ -220,4 +238,17 @@ main {
     .header__menu {
         display: flex;
     }    
+}
 
+@media only screen and (max-width: 520px) {
+    .main__title {
+        font-size: 28px;
+    }
+    .main__image--blue {
+        width: 4em;
+        height: 4em;
+    }
+    .main__text--black {
+        font-size: 10px;
+    }
+}
