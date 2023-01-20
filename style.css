@@ -141,11 +141,18 @@ main {
     text-align: center;
 }
 
-.testimonial {
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
     background-color: #E5E7EB;
+    padding: 18rem;
 }
 
 .testimonial__quote {
+    width: 60%;
     font-size: 3rem;
     font-weight: 300;
     font-style: italic;
@@ -153,6 +160,9 @@ main {
 }
 
 .testimonial__author {
+    align-self: flex-end;
+    width: 28%;
+
     font-size: 3rem;
     font-weight: 800;
     color: #1F2937;
@@ -187,23 +197,6 @@ main {
 
 .cta__container-text-p {
     color: #E5E7EB;
-}
-
-.testimonial{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-}
-
-.testimonial__quote{
-    width: 60%;
-}
-
-.testimonial__author{
-    align-self: flex-end;
-    width: 28%;
 }
 
 
@@ -280,6 +273,11 @@ footer p {
 
     .main__text--black {
         font-size: 10px;
+    }
+
+    .testimonial__quote {
+        width: 100%;
+        font-size: 4rem;
     }
 
 }
