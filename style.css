@@ -144,13 +144,13 @@ main {
 .main__image {
     display: flex;
     justify-content: space-evenly;
-    padding: 0rem 2rem;
-}
+    padding: 0em 12em;
+    }
 
 .main__image--blue {
     aspect-ratio: 1 / 1;
-    width: 10em;
-    height: 10em;
+    width: 30rem;
+    height: 30rem;
     border: 4px solid #3882f6;
     border-radius: 8%;
 }
@@ -203,7 +203,7 @@ main {
 .cta__container-main {
     display: flex;
     justify-content: space-around;
-    width: 75%;
+   /* width: 75%;*/
     padding: 9rem 3rem;
     margin: 5em;
     border-radius: 10px;
@@ -294,8 +294,8 @@ footer p {
     }
     .main__image--blue {
         aspect-ratio: 1 / 1;
-        width: 7em;
-        height: 7em;
+        width: 15rem;
+        height: 15rem;
     }
     .main__text {
         padding: 0;
