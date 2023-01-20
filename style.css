@@ -209,9 +209,7 @@ main {
     width: 28%;
 }
 
-<<<<<<< Updated upstream
-  /* media query XS devices to tablets? */
-=======
+
 footer {
     height: 8em;
     display: flex;
@@ -223,7 +221,9 @@ footer p {
     font-size: 1em;
 }
 
->>>>>>> Stashed changes
+
+
+
 @media screen and (min-width: 320px) and (max-width: 900px) {
     .cta__container-main {
         display: flex;
