@@ -16,51 +16,117 @@ footer {
     background-color: #1F2937;
 }
 
+.header__placeholder {
+    height: 9rem;
 }
 
+.header__nav-parent {
     display: flex;
+    justify-content: center;
+    padding: 0 36rem;
 }
 
+.header__nav-child {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #1F2937;
+    width: 100%;
+    padding: 3rem 36rem;
+    justify-content: space-between; 
+    align-items: center;         
 }
 
 .header__hero {
     display: flex;
     flex-flow: row wrap;
+    padding: 12rem 36rem;
     justify-content: space-between;
+    height: auto;
+    width: 100%;
 }
 
 
+.header__nav-child a {
+    text-decoration: none;
     color: #F9FAF8;
 }
 
+.header__links {
     font-size: 3rem;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.header__link {
+    margin-left: 3rem;
 }
 
+.header__menu {
+    display: none;  
+    font-size: 9rem; 
 }
 
+.header__logo,
 .cta__container-text-title {
     font-size: 4rem;
     color: #F9FAF8;
 }
 
+.header__link,
+.header__subtitle,
+.header__placeholder-child,
 .cta__container-text-p,
 footer {
     font-size: 3rem;
     color: #E5E7EB;
 }
 
+.header__title-parent {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    padding-right: 9rem;
+    justify-content: space-between;
+    max-width: 420px;
+}
+
+.header__title {
+    display: flex;
+    font-size: 8rem;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header__button {
+    width: 18rem;
+    margin: 3rem 0;
+}
+
+.header__button,
 .cta__button,
 .cta__container-main {
     background-color: #3882f6;
 }
 
+.header__button,
+.cta__button {
     color: #F9FAF8;
     font-size: 3rem;
     border-radius: 10px;
 }
 
+.header__placeholder-parent {
+    background-color: #6d747d;
+    width: 50%;
+    max-width: 420px;
+    min-width: 70rem;
+    min-height: 240px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -120,6 +186,8 @@ main {
     color: #1F2937;
 }
 
+.header__nav-child a:hover,
+.header__button:hover,
 .cta__button:hover {
     opacity: .8;
     cursor: pointer;
@@ -129,11 +197,13 @@ main {
 .cta__section {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .cta__container-main {
     display: flex;
     justify-content: space-around;
+   /* width: 75%;*/
     padding: 9rem 3rem;
     margin: 5em;
     border-radius: 10px;
@@ -151,6 +221,12 @@ main {
     color: #E5E7EB;
 }
 
+.cta__button {
+    padding: 1.5rem 6rem;
+    border-color: #F9FAF8;
+}
+
+/* testimonial code */
 .testimonial{
     display: flex;
     flex-direction: column;
@@ -166,13 +242,29 @@ main {
     width: 28%;
 }
 
+footer {
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
   /* media query XS devices to tablets? */
 @media screen and (min-width: 320px) and (max-width: 900px) {
     .cta__container-main {
         display: flex;
         flex-direction: column;
+        width: 100%;    
         padding: 3rem;
         margin: 3rem 0;
+    }
+
+    .cta__button {
+        margin-top: 1rem;
     }
 
     .cta__container-text-p {
@@ -180,17 +272,30 @@ main {
     }
 } 
 
-    .header__hero {
+@media only screen and (max-width: 1275px) {
+    .header__title-parent {
+        padding: 0;
+        min-width: 420px;       
     }
 
+    .header__hero {
+        justify-content: center;       
+    }
+
+    .header__title-parent {
+        align-items: center;  
+        text-align: center;     
     }
 }
 
 @media only screen and (max-width: 1150px) {
+    .main__image {
         padding: 0;
     }
     .main__image--blue {
         aspect-ratio: 1 / 1;
+        width: 15rem;
+        height: 15rem;
     }
     .main__text {
         padding: 0;
@@ -199,6 +304,11 @@ main {
         font-size: 2rem;
     }
 }    
+
+@media only screen and (max-width: 1013px) {
+    .header__nav-child {
+        padding: 3rem 9rem;
+    } 
 
 }
 
@@ -213,6 +323,13 @@ main {
 
     .main__text--black {
         font-size: 10px;
+    }
+
+    .header__menu {
+        display: flex;
+    }  
+    .header__link {
+        display: none;
     }
 
 }
