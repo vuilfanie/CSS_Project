@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 header,
@@ -33,12 +34,10 @@ footer {
 
 .header__logo {
     font-size: 4rem;
-    text-decoration: none;
     color: #F9FAF8;
 }
 
 .header__nav a {
-    text-decoration: none;
     color: #F9FAF8;
     font-size: 3rem;
     padding-left: 2rem;
@@ -118,7 +117,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     padding: 0em 12em;
-    }
+}
 
 .main__image--blue {
     aspect-ratio: 1 / 1;
@@ -197,9 +196,11 @@ main {
     justify-content: center;
     padding: 2rem;
 }
+
 .testimonial__quote{
     width: 60%;
 }
+
 .testimonial__author{
     align-self: flex-end;
     width: 28%;
