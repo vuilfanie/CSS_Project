@@ -47,7 +47,7 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 3rem 36rem;
+    padding: 8rem 36rem;
 }
 
 .header__hero-text {
@@ -115,8 +115,16 @@ main {
 
 .main__image {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0em 12em;
+    justify-content: center;
+    width: 100%;
+}
+
+.main__image > figure:not(:last-child) {
+    margin-right: 6rem;
+}
+
+figcaption {
+    margin-top: 1rem;
 }
 
 .main__image--blue {
@@ -143,16 +151,20 @@ main {
 
 .testimonial{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    
     background-color: #E5E7EB;
     padding: 18rem;
 }
 
+.testimonial__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+}
+
 .testimonial__quote {
-    width: 60%;
     font-size: 3rem;
     font-weight: 300;
     font-style: italic;
@@ -161,8 +173,6 @@ main {
 
 .testimonial__author {
     align-self: flex-end;
-    width: 28%;
-
     font-size: 3rem;
     font-weight: 800;
     color: #1F2937;
@@ -230,7 +240,7 @@ footer p {
 @media only screen and (max-width: 1331px) {
     .header__hero {
         justify-content: center;
-        padding: 3rem;
+        padding: 3rem 3rem 8rem 3rem;
     }
 
     .header__child {
@@ -254,6 +264,13 @@ footer p {
     .main__text--black {
         font-size: 2rem;
     }
+    
+    .header__hero-subtitle {
+        margin: 2rem 0;
+    }
+    .header__button {
+        margin-bottom: 2rem;
+    }
 }    
 
 @media only screen and (max-width: 935px) {
@@ -272,12 +289,23 @@ footer p {
     }
 
     .main__text--black {
-        font-size: 10px;
+        font-size: 10px; /* if you want to keep this font-size you will have to use the grid */
     }
 
     .testimonial__quote {
         width: 100%;
         font-size: 4rem;
     }
-
+    .main__image > figure:not(:last-child){
+        margin-right: 0;
+    }
+    .main__image > figure {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .main__image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
 }
