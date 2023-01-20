@@ -244,10 +244,14 @@ main {
 }
 
 footer {
-    height: 4rem;
+    height: 8em;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer p {
+    font-size: 1em;
 }
 
   /* media query XS devices to tablets? */
