@@ -231,7 +231,6 @@ footer p {
     }
 } 
 
-@media only screen and (max-width: 520px) {
     * {
         font-size: 4px;
     }
