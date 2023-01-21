@@ -9,10 +9,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 header,
-.header__child,
+.header__child ,
 footer {
     background-color: #1F2937;
 }
@@ -33,12 +34,10 @@ footer {
 
 .header__logo {
     font-size: 4rem;
-    text-decoration: none;
     color: #F9FAF8;
 }
 
 .header__nav a {
-    text-decoration: none;
     color: #F9FAF8;
     font-size: 3rem;
     padding-left: 2rem;
@@ -48,7 +47,7 @@ footer {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 3rem 36rem;
+    padding: 8rem 36rem;
 }
 
 .header__hero-text {
@@ -85,7 +84,7 @@ footer {
 
 .cta__button,
 .header__button,
-.cta__container-main {
+.cta__container {
     background-color: #3882f6;
 }
 
@@ -116,9 +115,17 @@ main {
 
 .main__image {
     display: flex;
-    justify-content: space-evenly;
-    padding: 0em 12em;
-    }
+    justify-content: center;
+    width: 100%;
+}
+
+.main__image > figure:not(:last-child) {
+    margin-right: 6rem;
+}
+
+figcaption {
+    margin-top: 1rem;
+}
 
 .main__image--blue {
     aspect-ratio: 1 / 1;
@@ -133,7 +140,6 @@ main {
     justify-content: space-evenly;
     margin-top: 8px;
     padding: 0 12em;
-
 }
 
 .main__text--black {
@@ -142,8 +148,19 @@ main {
     text-align: center;
 }
 
-.testimonial {
+.testimonial{
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
+    padding: 18rem;
+}
+
+.testimonial__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
 }
 
 .testimonial__quote {
@@ -154,6 +171,7 @@ main {
 }
 
 .testimonial__author {
+    align-self: flex-end;
     font-size: 3rem;
     font-weight: 800;
     color: #1F2937;
@@ -162,49 +180,26 @@ main {
 .cta__button:hover {
     opacity: .8;
     cursor: pointer;
-
 }
 
 .cta__section {
     display: flex;
     justify-content: center;
+    margin: 12rem;
 }
 
-.cta__container-main {
+.cta__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 9rem 3rem;
     margin: 5em;
     border-radius: 10px;
-}
-
-.cta__container-text {
-    flex: 2;
+    width: 70%;
 }
 
 .cta__container-text-title {
     font-style: bold;
 }
-
-.cta__container-text-p {
-    color: #E5E7EB;
-}
-
-.testimonial{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-}
-.testimonial__quote{
-    width: 60%;
-}
-.testimonial__author{
-    align-self: flex-end;
-    width: 28%;
-}
-
 
 footer {
     height: 8em;
@@ -217,63 +212,24 @@ footer p {
     font-size: 1em;
 }
 
-
-<<<<<<< Updated upstream
-=======
-@media only screen and (max-width: 580px) {
-    * {
-        font-size: 4px;
+@media screen and (min-width: 320px) and (max-width: 935px) {
+    .cta__section {
+        padding: 0;
+        margin: 1rem 0;
     }
->>>>>>> Stashed changes
-
-
-@media screen and (min-width: 320px) and (max-width: 900px) {
-    .cta__container-main {
-        display: flex;
+    .cta__container {
         flex-direction: column;
-        padding: 3rem;
-        margin: 3rem 0;
     }
-
     .cta__container-text-p {
-        margin-top: 0.2rem;
+        margin: 1rem 0;
     }
-} 
-
-@media only screen and (max-width: 1331px) {
-    .header__hero {
-        justify-content: center;
-        padding: 3rem;
-    }
-
-    .header__child {
-        padding: 3rem 3rem;
-    }
-    
-}
-
-@media only screen and (max-width: 1150px) {
-   .main__image {
-        padding: 0;
-    }
-    .main__image--blue {
-        aspect-ratio: 1 / 1;
-        width: 19rem;
-        height: 19rem;
-    }
-    .main__text {
-        padding: 0;
-    }    
-    .main__text--black {
-        font-size: 2rem;
-    }
-}    
-
-@media only screen and (max-width: 935px) {
     .header__hero-text {
         text-align: center;
     }
-}
+    .header__button {
+        margin: 2rem 0;
+    }
+} 
 
 @media only screen and (max-width: 520px) {
     * {
@@ -288,4 +244,59 @@ footer p {
         font-size: 10px;
     }
 
+    .testimonial__quote {
+        width: 100%;
+        font-size: 4rem;
+    }
+    .main__image > figure:not(:last-child){
+        margin-right: 0;
+    }
+    .main__image > figure {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .main__image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+
+@media only screen and (max-width: 1331px) {
+    .header__hero {
+        justify-content: center;
+        padding: 3rem 3rem 8rem 3rem;
+    }
+    .header__child {
+        padding: 3rem 3rem;
+    }
+    .main__image {
+        padding: 0;
+    }
+    .main__image--blue {
+        aspect-ratio: 1 / 1;
+        width: 19rem;
+        height: 19rem;
+    }
+    .main__text {
+        padding: 0;
+    }    
+    .main__text--black {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .header__hero {
+        justify-content: center;
+    }
+    .header__hero-text {
+        margin-right: 15%;
+    }
+    .testimonial__text-container {
+        width: 42%;
+    }
+    .cta__container {
+        width: 50%;
+    }
 }
