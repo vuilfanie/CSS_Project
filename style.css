@@ -181,7 +181,6 @@ figcaption {
 .cta__button:hover {
     opacity: .8;
     cursor: pointer;
-
 }
 
 .cta__section {
@@ -199,18 +198,9 @@ figcaption {
     width: 70%;
 }
 
-.cta__container-text {
-    flex: 2;
-}
-
 .cta__container-text-title {
     font-style: bold;
 }
-
-.cta__container-text-p {
-    color: #E5E7EB;
-}
-
 
 footer {
     height: 8em;
@@ -223,10 +213,7 @@ footer p {
     font-size: 1em;
 }
 
-
-
-
-@media screen and (min-width: 320px) and (max-width: 900px) {
+@media screen and (min-width: 320px) and (max-width: 935px) {
     .cta__section {
         padding: 0;
         margin: 1rem 0;
@@ -234,47 +221,16 @@ footer p {
     .cta__container {
         flex-direction: column;
     }
-
     .cta__container-text-p {
         margin: 1rem 0;
     }
-} 
-
-@media only screen and (max-width: 1331px) {
-    .header__hero {
-        justify-content: center;
-        padding: 3rem 3rem 8rem 3rem;
-    }
-
-    .header__child {
-        padding: 3rem 3rem;
-    }
-    
-}
-
-@media only screen and (max-width: 1150px) {
-   .main__image {
-        padding: 0;
-    }
-    .main__image--blue {
-        aspect-ratio: 1 / 1;
-        width: 19rem;
-        height: 19rem;
-    }
-    .main__text {
-        padding: 0;
-    }    
-    .main__text--black {
-        font-size: 2rem;
-    }
-    
-}    
-
-@media only screen and (max-width: 935px) {
     .header__hero-text {
         text-align: center;
     }
-}
+    .header__button {
+        margin: 2rem 0;
+    }
+} 
 
 @media only screen and (max-width: 520px) {
     * {
@@ -286,7 +242,7 @@ footer p {
     }
 
     .main__text--black {
-        font-size: 10px; /* if you want to keep this font-size you will have to use the grid */
+        font-size: 10px;
     }
 
     .testimonial__quote {
@@ -304,5 +260,29 @@ footer p {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+    }
+}
+
+@media only screen and (max-width: 1331px) {
+    .header__hero {
+        justify-content: center;
+        padding: 3rem 3rem 8rem 3rem;
+    }
+    .header__child {
+        padding: 3rem 3rem;
+    }
+    .main__image {
+        padding: 0;
+    }
+    .main__image--blue {
+        aspect-ratio: 1 / 1;
+        width: 19rem;
+        height: 19rem;
+    }
+    .main__text {
+        padding: 0;
+    }    
+    .main__text--black {
+        font-size: 2rem;
     }
 }
