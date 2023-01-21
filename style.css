@@ -218,6 +218,13 @@ footer p {
 }
 
 
+<<<<<<< Updated upstream
+=======
+@media only screen and (max-width: 580px) {
+    * {
+        font-size: 4px;
+    }
+>>>>>>> Stashed changes
 
 
 @media screen and (min-width: 320px) and (max-width: 900px) {
