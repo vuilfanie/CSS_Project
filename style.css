@@ -84,7 +84,7 @@ footer {
 
 .cta__button,
 .header__button,
-.cta__container-main {
+.cta__container {
     background-color: #3882f6;
 }
 
@@ -187,14 +187,16 @@ figcaption {
 .cta__section {
     display: flex;
     justify-content: center;
+    margin: 12rem;
 }
 
-.cta__container-main {
+.cta__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 9rem 3rem;
     margin: 5em;
     border-radius: 10px;
+    width: 70%;
 }
 
 .cta__container-text {
@@ -225,15 +227,16 @@ footer p {
 
 
 @media screen and (min-width: 320px) and (max-width: 900px) {
-    .cta__container-main {
-        display: flex;
+    .cta__section {
+        padding: 0;
+        margin: 1rem 0;
+    }
+    .cta__container {
         flex-direction: column;
-        padding: 3rem;
-        margin: 3rem 0;
     }
 
     .cta__container-text-p {
-        margin-top: 0.2rem;
+        margin: 1rem 0;
     }
 } 
 
@@ -265,12 +268,6 @@ footer p {
         font-size: 2rem;
     }
     
-    .header__hero-subtitle {
-        margin: 2rem 0;
-    }
-    .header__button {
-        margin-bottom: 2rem;
-    }
 }    
 
 @media only screen and (max-width: 935px) {
