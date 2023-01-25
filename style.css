@@ -147,7 +147,7 @@ figcaption {
 .testimonial{
     display: flex;
     justify-content: center;
-    background-color: #E5E7EB;
+    background-color: var(--sw-grey);
     padding: 18rem;
 }
 
