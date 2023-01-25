@@ -8,7 +8,7 @@
 }
 
 header,
-.header__child ,
+.header__child,
 footer {
     background-color: var(--bg-header-footer);
 }
@@ -120,7 +120,7 @@ main {
     width: 100%;
 }
 
-.main__image > figure:not(:last-child) {
+.main__image>figure:not(:last-child) {
     margin-right: 6rem;
 }
 
@@ -149,7 +149,7 @@ figcaption {
     text-align: center;
 }
 
-.testimonial{
+.testimonial {
     display: flex;
     justify-content: center;
     background-color: var(--sw-grey);
@@ -162,7 +162,7 @@ figcaption {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width:67%;
+    max-width: 67%;
 }
 
 .testimonial__quote {
@@ -219,19 +219,23 @@ footer p {
         padding: 0;
         margin: 1rem 0;
     }
+
     .cta__container {
         flex-direction: column;
     }
+
     .cta__container-text-p {
         margin: 1rem 0;
     }
+
     .header__hero-text {
         text-align: center;
     }
+
     .header__button {
         margin: 2rem 0;
     }
-} 
+}
 
 @media only screen and (max-width: 580px) {
     * {
@@ -250,13 +254,16 @@ footer p {
         width: 100%;
         font-size: 4rem;
     }
-    .main__image > figure:not(:last-child){
+
+    .main__image>figure:not(:last-child) {
         margin-right: 0;
     }
-    .main__image > figure {
+
+    .main__image>figure {
         text-align: center;
         margin-bottom: 3rem;
     }
+
     .main__image {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -269,20 +276,25 @@ footer p {
         justify-content: center;
         padding: 3rem 3rem 8rem 3rem;
     }
+
     .header__child {
         padding: 3rem 3rem;
     }
+
     .main__image {
         padding: 0;
     }
+
     .main__image--blue {
         aspect-ratio: 1 / 1;
         width: 19rem;
         height: 19rem;
     }
+
     .main__text {
         padding: 0;
-    }    
+    }
+
     .main__text--black {
         font-size: 2rem;
     }
@@ -292,12 +304,15 @@ footer p {
     .header__hero {
         justify-content: center;
     }
+
     .header__hero-text {
         margin-right: 15%;
     }
+
     .testimonial__text-container {
         width: 42%;
     }
+
     .cta__container {
         width: 50%;
     }
