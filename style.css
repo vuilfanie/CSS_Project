@@ -88,11 +88,13 @@ footer {
     cursor: pointer;
     color: var(--sw-coffee-white);
     font-size: 3rem;
-    border-radius: 10px;
     padding: 1.5rem 6rem;
+    font-weight: 600;
+    border-radius: 10px;
 }
 
 .cta__button {
+    border-style: solid;
     border-color: var(--sw-coffee-white);
 }
 
@@ -102,7 +104,7 @@ main {
 
 .main__title {
     font-size: 6rem;
-    font-weight: 800;
+    font-weight: bolder;
     color: var(--bg-header-footer);
     text-align: center;
     padding: 45px 0;
@@ -167,7 +169,7 @@ figcaption {
 
 .testimonial__author {
     align-self: flex-end;
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 800;
     color: var(--bg-header-footer);
 }
