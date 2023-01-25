@@ -1,10 +1,22 @@
 @font-face {
-  font-family: 'Quicksand', sans-serif;
-  src: url(./fonts/static/);
+  font-family: 'Roboto';
+  src: url(/fonts/static/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(/fonts/static/Roboto-Italic.ttf) format('truetype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(/fonts/static/Roboto-Bold.ttf) format('truetype');
+  font-weight: bold;
 }
 
 :root {
-  --font-family: "Quicksand", sans-serif;
+  --font-family: "Roboto", sans-serif;
 
   --bg-header-footer: #1F2937;
   --sw-coffee-white: #F9FAF8;

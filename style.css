@@ -52,7 +52,7 @@ footer {
 .header__hero-title {
     color: var(--sw-coffee-white);
     font-size: 8rem;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .header__hero-subtitle {
@@ -161,8 +161,8 @@ figcaption {
 
 .testimonial__quote {
     font-size: 3rem;
-    font-weight: 300;
     font-style: italic;
+    font-weight: 300;
     color: var(--bg-header-footer);
 }
 
@@ -193,7 +193,7 @@ figcaption {
 }
 
 .cta__container-text-title {
-    font-style: bold;
+    font-weight: bold;
 }
 
 footer {
