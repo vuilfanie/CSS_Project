@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+  src: url(./fonts/static/);
+}
+
+:root {
+  --font-family: "Quicksand", sans-serif;
+
+  --bg-header-footer: #1F2937;
+  --sw-coffee-white: #F9FAF8;
+  --sw-coffee-blue: #3882f6; 
+}

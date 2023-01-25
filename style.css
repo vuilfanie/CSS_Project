@@ -80,7 +80,7 @@ footer {
 .cta__button,
 .header__button,
 .cta__container {
-    background-color: #3882f6;
+    background-color: var(--sw-coffee-blue);
 }
 
 .cta__button,
@@ -127,7 +127,7 @@ figcaption {
     aspect-ratio: 1 / 1;
     width: 30rem;
     height: 30rem;
-    border: 4px solid #3882f6;
+    border: 4px solid var(--sw-coffee-blue);
     border-radius: 8%;
 }
 
