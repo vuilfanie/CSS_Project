@@ -93,6 +93,10 @@ footer {
     border-radius: 10px;
 }
 
+.header__button {
+    border-style: none;
+}
+
 .cta__button {
     border-style: solid;
     border-color: var(--sw-coffee-white);
@@ -150,6 +154,7 @@ figcaption {
     justify-content: center;
     background-color: var(--sw-grey);
     padding: 18rem;
+    width: 100%;
 }
 
 .testimonial__text-container {
@@ -157,7 +162,7 @@ figcaption {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 65%;
+    max-width:67%;
 }
 
 .testimonial__quote {
