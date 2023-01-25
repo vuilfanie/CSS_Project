@@ -195,7 +195,8 @@ figcaption {
     padding: 9rem 3rem;
     margin: 5em;
     border-radius: 10px;
-    width: 70%;
+    padding: 8rem 16rem;
+    width: 80%;
 }
 
 .cta__container-text-title {
