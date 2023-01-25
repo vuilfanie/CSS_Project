@@ -1,10 +1,5 @@
-@font-face {
-    font-family: 'Quicksand', sans-serif;
-    src: url(./fonts/static/);
-}
-
 * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: var(--font-family);
     font-size: 6px;
     margin: 0;
     padding: 0;
@@ -15,7 +10,7 @@
 header,
 .header__child ,
 footer {
-    background-color: #1F2937;
+    background-color: var(--bg-header-footer);
 }
 
 .header__parent {
@@ -109,7 +104,7 @@ main {
 .main__title {
     font-size: 6rem;
     font-weight: 800;
-    color: #1F2937;
+    color: var(--bg-header-footer);
     text-align: center;
     padding: 45px 0;
 }
@@ -168,14 +163,14 @@ figcaption {
     font-size: 3rem;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
+    color: var(--bg-header-footer);
 }
 
 .testimonial__author {
     align-self: flex-end;
     font-size: 3rem;
     font-weight: 800;
-    color: #1F2937;
+    color: var(--bg-header-footer);
 }
 
 .cta__button:hover {
