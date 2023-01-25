@@ -90,6 +90,7 @@ footer {
 
 .cta__button,
 .header__button {
+    cursor: pointer;
     color: #F9FAF8;
     font-size: 3rem;
     border-radius: 10px;
@@ -179,7 +180,6 @@ figcaption {
 
 .cta__button:hover {
     opacity: .8;
-    cursor: pointer;
 }
 
 .cta__section {
