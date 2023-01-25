@@ -33,7 +33,7 @@ footer {
 }
 
 .header__nav a {
-    color: var(--sw-coffee-white);
+    color: var(--sw-grey);
     font-size: 3rem;
     padding-left: 2rem;
 }
@@ -56,7 +56,7 @@ footer {
 }
 
 .header__hero-subtitle {
-    color: var(--sw-coffee-white);
+    color: var(--sw-grey);
     font-size: 3rem;
     margin-bottom: 2rem;
 }
