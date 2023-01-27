@@ -14,7 +14,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     color: var(--sw-coffee-white);
-    padding: 3rem 36rem;
+    padding: 3rem 3rem;
     width: 100%;
 }
 
@@ -32,8 +32,8 @@ footer {
 .header__hero {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 8rem 36rem;
+    justify-content: space-evenly;
+    padding: 3rem 3rem 8rem 3rem;
 }
 
 .header__hero-text {
@@ -136,7 +136,7 @@ figcaption {
 
 .main__text--black {
     font-size: 3rem;
-    width: 9.8em;
+    width: 100%;
     text-align: center;
 }
 
@@ -229,6 +229,26 @@ footer p {
     .header__button {
         margin: 2rem 0;
     }
+
+    .main__image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    .main__image--blue {
+        width: calc(35rem - 4rem);
+        margin: 2rem;
+    }
+
+    .main__image>figure:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .main__text--black {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width: 580px) {
@@ -253,44 +273,8 @@ footer p {
         margin-right: 0;
     }
 
-    .main__image>figure {
-        text-align: center;
-        margin-bottom: 3rem;
-    }
-
-    .main__image {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-    }
-}
-
-@media only screen and (max-width: 1331px) {
-    .header__hero {
-        justify-content: center;
-        padding: 3rem 3rem 8rem 3rem;
-    }
-
-    .header__child {
-        padding: 3rem 3rem;
-    }
-
-    .main__image {
-        padding: 0;
-    }
-
-    .main__image--blue {
-        aspect-ratio: 1 / 1;
-        width: 19rem;
-        height: 19rem;
-    }
-
-    .main__text {
-        padding: 0;
-    }
-
     .main__text--black {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
