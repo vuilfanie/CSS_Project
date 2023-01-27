@@ -23,3 +23,12 @@
   --sw-coffee-blue: #3882f6;
   --sw-grey: #E5E7EB;
 }
+
+* {
+  font-family: var(--font-family);
+  font-size: 6px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
