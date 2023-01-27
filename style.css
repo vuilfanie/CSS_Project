@@ -170,7 +170,6 @@ figcaption {
     color: var(--bg-header-footer);
 }
 
-.header__log:hover,
 .header__nav a:hover,
 .main__image--blue:hover,
 .cta__button:hover {
