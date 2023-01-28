@@ -1,14 +1,16 @@
 header,
-.header__child,
+.header__parent,
+.header__hero,
 footer {
     background-color: var(--bg-header-footer);
 }
 
-.header__parent {
-    height: 11rem;
+header {
+    padding-bottom: 11rem;
 }
 
-.header__child {
+.header__parent {
+    height: 11rem;
     position: fixed;
     display: flex;
     align-items: center;
