@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../globals.css">
-    <link rel="stylesheet" href="../contact.css">
-    <link rel="stylesheet" href="../style.css">
-    <title>South West Coffee</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../globals.css">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="../contact.css">
 
-<body>
-    <header>
-        <div class="header__parent">
-            <div class="header__child">
+        <title>South West Coffee</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="header__parent">
                 <a href="#" class="header__logo">
                     SW Coffee
                 </a>
                 <nav class="header__nav">
-                    <nav class="header__nav">
-                        <a href="../index.html">Home</a>
-                        <a href="./abou.html">About</a>
-                        <a href="#".>Contact</a>                    
-                    </nav>
+                    <a href="../index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="./contact.html">Contact</a>
                 </nav>
             </div>
-        </div>
-       
+        </header>
+    <form class="form__section" action="/submit-contact" method="post">
+        <label class="form__text--black" for="name">
+            Name
+        </label>
+        <input class="form__input" type="text" name="name" id="name" required="">
+        <br>
+        <label class="form__text--black" for="email">
+            Email
+        </label>
+        <input class="form__input" type="email" name="email" id="email" required="">
+        <br>
+        <label class="form__text--black" for="message">
+            Message
+        </label>
+        <textarea class="textarea__text--black" name="message" id="message" rows="4" required="">                </textarea>
+        <br>
+        <button class="form_button" type="submit">
+            Submit
+        </button>
+    </form>       
     <footer>
         <p>
             Copyright &copy;2023 South West Coffee
