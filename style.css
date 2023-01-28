@@ -93,7 +93,7 @@ footer {
     border-color: var(--sw-coffee-white);
 }
 
-main {
+section.info {
     padding-bottom: 7em;
 }
 
@@ -146,6 +146,10 @@ figcaption {
     background-color: var(--sw-grey);
     padding: 18rem;
     width: 100%;
+}
+
+.testimonial h2 {
+    display: none;
 }
 
 .testimonial__text-container {
