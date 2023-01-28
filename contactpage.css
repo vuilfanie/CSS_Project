@@ -126,6 +126,16 @@ input{
     margin: 0 0;
     width:5% ;
 }
+input[type="submit"]{
+    margin-top:20%;
+    margin-bottom: 0;
+    background-color:aquamarine;
+    border-color: blue;
+    border-radius: 20px;
+    font-size: medium;
+    height:5rem;
+
+}
 
 
 
