@@ -46,16 +46,6 @@
     background-color: var(--sw-coffee-blue);
 }
 
-.cta__button,
-.section__hero-button {
-    cursor: pointer;
-    color: var(--sw-coffee-white);
-    font-size: 3rem;
-    padding: 1.5rem 6rem;
-    font-weight: 600;
-    border-radius: 10px;
-}
-
 .section__hero-button {
     border-style: none;
 }
