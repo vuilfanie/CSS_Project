@@ -1,6 +1,6 @@
 header,
 .header__parent,
-.header__hero,
+.section__hero,
 footer {
     background-color: var(--bg-header-footer);
 }
@@ -31,30 +31,30 @@ header {
     padding-left: 2rem;
 }
 
-.header__hero {
+.section__hero {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     padding: 3rem 3rem 8rem 3rem;
 }
 
-.header__hero-text {
+.section__hero-text {
     max-width: 80rem;
 }
 
-.header__hero-title {
+.section__hero-title {
     color: var(--sw-coffee-white);
     font-size: 8rem;
     font-weight: bolder;
 }
 
-.header__hero-subtitle {
+.section__hero-subtitle {
     color: var(--sw-grey);
     font-size: 3rem;
     margin-bottom: 2rem;
 }
 
-.header__hero img {
+.section__hero img {
     width: 70rem;
     height: 40rem;
 }
@@ -71,13 +71,13 @@ footer {
 }
 
 .cta__button,
-.header__button,
+.section__hero-button,
 .cta__container {
     background-color: var(--sw-coffee-blue);
 }
 
 .cta__button,
-.header__button {
+.section__hero-button {
     cursor: pointer;
     color: var(--sw-coffee-white);
     font-size: 3rem;
@@ -86,7 +86,7 @@ footer {
     border-radius: 10px;
 }
 
-.header__button {
+.section__hero-button {
     border-style: none;
 }
 
@@ -232,7 +232,7 @@ footer p {
         text-align: center;
     }
 
-    .header__button {
+    .section__hero-button {
         margin: 2rem 0;
     }
 
