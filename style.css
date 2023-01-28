@@ -1,60 +1,31 @@
-header,
-.header__parent,
-.header__hero,
-footer {
+.section__hero {
     background-color: var(--bg-header-footer);
 }
 
-header {
-    padding-bottom: 11rem;
-}
-
-.header__parent {
-    height: 11rem;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--sw-coffee-white);
-    padding: 3rem 3rem;
-    width: 100%;
-}
-
-.header__logo {
-    font-size: 4rem;
-    color: var(--sw-coffee-white);
-}
-
-.header__nav a {
-    color: var(--sw-grey);
-    font-size: 3rem;
-    padding-left: 2rem;
-}
-
-.header__hero {
+.section__hero {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     padding: 3rem 3rem 8rem 3rem;
 }
 
-.header__hero-text {
+.section__hero-text {
     max-width: 80rem;
 }
 
-.header__hero-title {
+.section__hero-title {
     color: var(--sw-coffee-white);
     font-size: 8rem;
     font-weight: bolder;
 }
 
-.header__hero-subtitle {
+.section__hero-subtitle {
     color: var(--sw-grey);
     font-size: 3rem;
     margin-bottom: 2rem;
 }
 
-.header__hero img {
+.section__hero img {
     width: 70rem;
     height: 40rem;
 }
@@ -64,29 +35,18 @@ header {
     color: var(--sw-coffee-white);
 }
 
-.cta__container-text-p,
-footer {
+.cta__container-text-p {
     font-size: 3rem;
     color: var(--sw-coffee-white);
 }
 
 .cta__button,
-.header__button,
+.section__hero-button,
 .cta__container {
     background-color: var(--sw-coffee-blue);
 }
 
-.cta__button,
-.header__button {
-    cursor: pointer;
-    color: var(--sw-coffee-white);
-    font-size: 3rem;
-    padding: 1.5rem 6rem;
-    font-weight: 600;
-    border-radius: 10px;
-}
-
-.header__button {
+.section__hero-button {
     border-style: none;
 }
 
@@ -176,11 +136,9 @@ figcaption {
     color: var(--bg-header-footer);
 }
 
-.header__logo:hover,
-.header__nav a:hover,
 .main__image--blue:hover,
 .cta__button:hover {
-    opacity: .8;
+    opacity: var(--btn-hover-opacity);
 }
 
 .cta__section {
@@ -203,17 +161,6 @@ figcaption {
     font-weight: bolder;
 }
 
-footer {
-    height: 8em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer p {
-    font-size: 1em;
-}
-
 @media screen and (min-width: 320px) and (max-width: 935px) {
     .cta__section {
         padding: 0;
@@ -228,11 +175,11 @@ footer p {
         margin: 1rem 0;
     }
 
-    .header__hero-text {
+    .section__hero-text {
         text-align: center;
     }
 
-    .header__button {
+    .section__hero-button {
         margin: 2rem 0;
     }
 
@@ -293,11 +240,11 @@ footer p {
 }
 
 @media only screen and (min-width: 1600px) {
-    .header__hero {
+    .section__hero {
         justify-content: center;
     }
 
-    .header__hero-text {
+    .section__hero-text {
         margin-right: 15%;
     }
 
