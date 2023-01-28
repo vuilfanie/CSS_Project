@@ -1,0 +1,48 @@
+#info {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.form__title {
+    font-size: 6rem;
+    color: var(--bg-header-footer);
+    padding: 45px 0;
+}
+
+.form__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__text--black {
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.textarea__text--black {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.form_button {
+    cursor: pointer;
+    color: var(--sw-coffee-white);
+    font-size: 3rem;
+    padding: 1.5rem 6rem;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: var(--sw-coffee-blue);
+}
