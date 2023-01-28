@@ -255,6 +255,14 @@ footer p {
     .main__text--black {
         font-size: 3rem;
     }
+
+    .testimonial {
+        padding: 12rem;
+    }
+
+    .testimonial__text-container {
+        min-width: 100%;
+    }
 }
 
 @media only screen and (max-width: 580px) {
