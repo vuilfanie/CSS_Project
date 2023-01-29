@@ -13,99 +13,99 @@
 <body>
     <header>
         <div class="header__parent">
-            <div class="header__child">
-                <a href="#" class="header__logo">
-                    SW Coffee
-                </a>
-                <nav class="header__nav">
-                    <a href=#info>About</a>
-                    <a href=#testimonial>Testimoinal</a>
-                    <a href=#cta>Sign Up</a>
-                </nav>
-            </div>
+            <a href="#" class="header__logo">
+                SW Coffee
+            </a>
+            <nav class="header__nav">
+                <a href="#">Home</a>
+                <a href="./pages/about.html">About</a>
+                <a href="./pages/contact.html">Contact</a>
+            </nav>
         </div>
-        <div class="header__hero">
-            <div class="header__hero-text">
-                <div class="header__hero-title">
+    </header>
+    <main>
+        <section class="section__hero">
+            <div class="section__hero-text">
+                <h2 class="section__hero-title">
                     South West Coffee
-                </div>
-                <div class="header__hero-subtitle">
+                </h2>
+                <div class="section__hero-subtitle">
                     Experience the finest blends from around the world.
                     From the bold, full-bodied taste of an Italian roast to the smooth
                     and nutty flavors of a French press, we have something for every coffee lover.
                 </div>
-                <button type="submit" class="header__button">
+                <button type="submit" class="btn section__hero-button">
                     Sign up
                 </button>
             </div>
             <img title="image" src="./images/hero-img.png"
                 alt="Top down photo of a white cup surrounded and filled with coffee beans">
-        </div>
-    </header>
-    <main id="info">
-        <h1 class="main__title">
-            Products
-        </h1>
-        <div class="main__image">
-            <figure id="fig__beans">
-                <a href="#"><img src="./images/beans2.jpg" class="main__image--blue"
-                    alt="A close-up of coffee beans on a white background"></a> 
-                <figcaption class="main__text--black">
-                    Coffee Beans
-                </figcaption>
-            </figure>
-            <figure id="fig__ground-coffee">
-                <a href="#"><img src="./images/ground2.jpg" class="main__image--blue"
-                    alt="Ground coffee in a reusable filter with a wooden spoon next to it with some ground coffee in."></a> 
-                <figcaption class="main__text--black">
-                    Ground Coffee
-                </figcaption>
-            </figure>
-            <figure id="fig__tea">
-                <a href="#"><img src="./images/tea2.jpg" class="main__image--blue"
-                    alt="A close-up of tea leaves in a ceramic cup on a solid surface."></a> 
-                <figcaption class="main__text--black">
-                    Tea
-                </figcaption>
-            </figure>
-            <figure id="fig__equipment">
-                <a href="#"><img src="./images/equipment2.jpg" class="main__image--blue"
-                    alt="A black coffee pot on a burner next to a glass beaker with filter coffee inside."></a> 
-                <figcaption class="main__text--black">
-                    Equipment
-                </figcaption>
-            </figure>
-        </div>
-    </main>
-    <article id="testimonial" class="testimonial">
-        <h2 style="display: none">Testimonial</h2>
-        <div class="testimonial__text-container">
-            <p class="testimonial__quote">
-                "South West never disappoints with their delicious coffee and top-notch customer service. Highly
-                recommend!"
-            </p>
-            <p class="testimonial__author">
-                -Some Guy
-            </p>
-        </div>
-    </article>
-    <section id="cta" class="cta__section">
-        <div class="cta__container">
-            <div class="cta__container-text">
-                <h3 class="cta__container-text-title">
-                    What are you waiting for?
-                </h3>
-                <p class="cta__container-text-p">
-                    Sign up now to receive exclusive discounts and content.
+        </section>
+        <section class="info">
+            <h1 class="main__title">
+                Products
+            </h1>
+            <div class="main__image">
+                <figure id="fig__beans">
+                    <a href="#"><img src="./images/beans2.jpg" class="main__image--blue"
+                            alt="A close-up of coffee beans on a white background"></a>
+                    <figcaption class="main__text--black">
+                        Coffee Beans
+                    </figcaption>
+                </figure>
+                <figure id="fig__ground-coffee">
+                    <a href="#"><img src="./images/ground2.jpg" class="main__image--blue"
+                            alt="Ground coffee in a reusable filter with a wooden spoon next to it with some ground coffee in."></a>
+                    <figcaption class="main__text--black">
+                        Ground Coffee
+                    </figcaption>
+                </figure>
+                <figure id="fig__tea">
+                    <a href="#"><img src="./images/tea2.jpg" class="main__image--blue"
+                            alt="A close-up of tea leaves in a ceramic cup on a solid surface."></a>
+                    <figcaption class="main__text--black">
+                        Tea
+                    </figcaption>
+                </figure>
+                <figure id="fig__equipment">
+                    <a href="#"><img src="./images/equipment2.jpg" class="main__image--blue"
+                            alt="A black coffee pot on a burner next to a glass beaker with filter coffee inside."></a>
+                    <figcaption class="main__text--black">
+                        Equipment
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="testimonial" class="testimonial">
+            <h2>Testimonial</h2>
+            <div class="testimonial__text-container">
+                <p class="testimonial__quote">
+                    "South West never disappoints with their delicious coffee and top-notch customer service. Highly
+                    recommend!"
+                </p>
+                <p class="testimonial__author">
+                    -Some Guy
                 </p>
             </div>
-            <div class="cta__container-button">
-                <button type="submit" class="cta__button">
-                    Sign up
-                </button>
+        </section>
+        <section id="cta" class="cta__section">
+            <div class="cta__container">
+                <div class="cta__container-text">
+                    <h3 class="cta__container-text-title">
+                        What are you waiting for?
+                    </h3>
+                    <p class="cta__container-text-p">
+                        Sign up now to receive exclusive discounts and content.
+                    </p>
+                </div>
+                <div class="cta__container-button">
+                    <button type="submit" class="btn cta__button">
+                        Sign up
+                    </button>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <p>
             Copyright &copy;2023 South West Coffee
