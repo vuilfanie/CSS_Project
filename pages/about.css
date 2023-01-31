@@ -1,0 +1,33 @@
+
+.about__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 10rem;
+}
+
+.about__description {
+    width: 100rem;
+    margin: 5rem;
+ }
+
+ .about__container img {
+    width: 100rem;
+    height: 50rem;
+ }
+
+p {
+   font-size: 3rem;   
+}
+
+@media screen and (max-width: 424px) {
+    .about__container img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .about__description {
+        text-align: center;
+    }
+}

@@ -75,7 +75,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-
   height: 8em;
   font-size: 3rem;
   color: var(--sw-coffee-white);
