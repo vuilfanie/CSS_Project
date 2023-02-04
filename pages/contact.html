@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="./contact.css">
         <title>South West Coffee</title>
     </head>
-    
     <body>
         <header>
             <div class="header__parent">
@@ -22,42 +21,111 @@
                     <a class="current__page" href="#">Contact</a>
                 </nav>
             </div>
-        </div>
-    </header>
-    <main id="info">
-        <section>
-            <h3 class="form__title">
-                Contact Us
-            </h3>
-            <form class="form__section" action="/submit-contact" method="post">
-                <label class="form__text--black" for="name">
-                    Name
-                </label>
-                <input class="form__input" type="text" name="name" id="name" required>
-                <br>
-                <label class="form__text--black" for="email">
-                    Email
-                </label>
-                <input class="form__input" type="email" name="email" id="email" required>
-                <br>
-                <label class="form__text--black" for="message">
-                    Message
-                </label>
-                <textarea class="textarea__text--black" name="message" id="message" cols="52" rows="7" placeholder="Message" required>
-                </textarea>
-                </textarea>
-                <br>
-                <button class="form_button" type="submit">
-                    Submit
-                </button>
-            </form>
-        </section>
-        </main>
-    <footer>
-        <p>
-            Copyright &copy;2023 South West Coffee
-        </p>
-    </footer>
+        </header>
+            <main id="info">
+            <section class="contact__container">
+                <div class="contact__details">
+                <h3>
+                    Come visit us
+                </h3>
+                <p>
+                    We love to talk and see your face in person, so come visit 
+                    and have your first coffee on us. 
+                    Just kidding, this ain't yo mommas business, 
+                    we charge for everything
+                </p>
+            <section class="social__container">
+                <ul 
+                    class="social-list">
+                    <li>
+                        <a class="social-list__icons" href="#" target="_blank" aria-label="Twitter"
+                        >
+                            <i class="fa fa-twitter fa-3x" title="Twitter">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-list__icons" href="#" target="_blank" aria-label="GitHub"
+                        >
+                            <i class="fa fa-github-square fa-3x" title="GitHub">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-list__icons" href="#" target="_blank" aria-label="YouTube"
+                        >
+                            <i class="fa fa-youtube fa-3x" title="YouTube">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-list__icons" href="#" target="_blank" aria-label="Instagram"
+                        >
+                            <i class="fa fa-instagram fa-3x" title="Instagram">
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="social-list__icons" href="#" target="_blank" aria-label="Facebook"
+                        >
+                            <i class="fa fa-facebook-square fa-3x" title="Facebook">
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            </div>
+            <section class="contact__image">
+                <figure>
+                    <img src="https://unsplash.com/photos/yKalliZTaQU/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc1MTg0NDM1&force=true&w=1920" 
+                        alt="Photograph of one hand throwing coffee into a cup that another hand is holding. Coffee is spilling everywhere while it's being poured.">
+                </figure>
+            </section> 
+            <section class="contact__image">
+                <figure>
+                    <img src="https://unsplash.com/photos/IhqDpFz7I8Q/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjc1MTg0NDM2&force=true&w=1920" 
+                        alt="Photograph of a cup of coffee in a studio with sunlight beaming from the one side and a shadow being casted on the other side">
+                </figure>
+            </section> 
+                <div class="contact__form">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <section class="input__field">
+                            <label for="name">
+                            </label>
+                            <input type="text" name="name" id="name" placeholder="Name" />
+                        </section>
+                        <section class="input__field">
+                            <label for="email">
+                            </label>
+                            <input type="email" name="email" id="email" placeholder="Email" />
+                        </section>
+                        <section class="input__field">
+                            <label for="message">
+                            </label>
+                            <textarea 
+                                name="message" id="message" placeholder="Message"></textarea>
+                        </section>
+                            <button type="submit">
+                                Submit
+                            </button>
+                    </form>
+                </div>
+            </section>
+            <section class="contact__map">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.1470231574385!2d-73.95514969999999!3d40.736790299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2593c22883365%3A0x211c9959256a605f!2s1120%20Manhattan%20Ave%2C%20Brooklyn%2C%20NY%2011222%2C%20USA!5e0!3m2!1sen!2sza!4v1675149884292!5m2!1sen!2sza"
+                    style="border:0" allowfullscreen="" width="100%" height="380" frameborder="0">
+                </iframe>
+            </section>
+            <script 
+                src="https://kit.fontawesome.com/01c6abd6fc.js" crossorigin="anonymous">
+            </script>
+            </main>
+        <footer>
+            <p>
+                Copyright &copy;2023 South West Coffee
+            </p>
+        </footer>
 </body>
-
 </html>
