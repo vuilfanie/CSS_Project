@@ -7,13 +7,10 @@
 }
 
 .about__description {
-    width: 100rem;
     margin: 5rem;
  }
 
  .about__container img {
-    width: 100rem;
-    height: 50rem;
  }
 
 p {
