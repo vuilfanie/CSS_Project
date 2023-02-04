@@ -1,15 +1,26 @@
 
 .about__container {
+    border: 1px solid red;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    padding: 0rem;
 }
 
 .about__description {
+    text-align: center;
+    width: 80%;
     margin: 5rem;
  }
 
  .about__container img {
+    width: 80%;
+    height: auto;
+ }
+
+ h1 {
+    font-size: 5rem;
+    margin: 2rem;
  }
 
 p {
