@@ -1,3 +1,7 @@
+#info {
+    text-align: center;
+    min-height: calc(100vh - 38rem)
+}
 
 .about__container {
     display: flex;
@@ -12,7 +16,13 @@
     margin: 5rem;
  }
 
+ .about__container figure {
     width: 80%;
+    height: auto;
+ }
+
+ .about__container figure img{
+    width: 100%;
     height: auto;
  }
 
