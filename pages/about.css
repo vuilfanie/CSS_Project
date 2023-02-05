@@ -1,6 +1,5 @@
 
 .about__container {
-    border: 1px solid red;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -13,7 +12,6 @@
     margin: 5rem;
  }
 
- .about__container img {
     width: 80%;
     height: auto;
  }
