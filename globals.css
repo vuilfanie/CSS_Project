@@ -92,3 +92,7 @@ footer p {
   font-weight: 600;
   border-radius: 10px;
 }
+
+.current__page {
+  opacity: .6;
+}
